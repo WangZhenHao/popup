@@ -4,7 +4,16 @@
 
 ```
 	 对话框zx-popup使用方法
- <zx-popup id="..." zx-class="..." popup-visible="{{...}}}" zx-postion="..." modal="{{...}}" z-index="{{...}}" bind:popupStatus="popupChange" close-on-click-modal="{{true}}">
+ <zx-popup 
+  id="..." 
+  zx-class="..." 
+  popup-visible="{{...}}}" 
+  zx-postion="{{...}}" 
+  modal="{{...}}" 
+  z-index="{{...}}" 
+  bind:popupStatus="popupChange" 
+  close-on-click-modal="{{true}}"
+ >
      <view>
        .....
      </view>
@@ -24,5 +33,4 @@
          但是外面的popupVisible没有改变,就会导致数据不统一的情况
 ```
 
-
-
+![AreaInertailScroll](https://github.com/WangZhenHao/popup/blob/master/images/popup.gif)
