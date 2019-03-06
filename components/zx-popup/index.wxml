@@ -1,0 +1,9 @@
+<view 
+class="zx-class popup-wrap" 
+style="z-index: {{zIndex}};" hidden="{{!_showHide}}"
+>
+	<view class="shadow popup-wrap {{showdowTransName}}" hidden="{{!modal}}" bindtap="clickModal"></view>
+	<view class="popup-content {{zxPosition}} {{popTransName}}">
+		<slot></slot>
+	</view>
+</view>

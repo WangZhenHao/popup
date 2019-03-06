@@ -1,0 +1,30 @@
+<button bindtap="leftPop">显示left弹框</button>
+<button bindtap="rightPop">显示right弹框</button>
+<button bindtap="topPop">显示top弹框</button>
+<button bindtap="bottomPop">显示bottom弹框</button>
+<button bindtap="middlePop">显示middle弹框</button>
+
+<zx-popup popup-visible="{{ right }}" zx-position="{{'right'}}" bind:popupStatus="rightPopHandle">
+	<view class="wrap right">
+		<view>显示right弹框</view>
+		<button bindtap="rightPop">隐藏right弹框</button>
+	</view>
+
+</zx-popup>
+
+<zx-popup popup-visible="{{ left }}" zx-position="{{'left'}}" bind:popupStatus="popupStatusHandle">
+	<view class="wrap left">
+		<view>显示left弹框</view>
+		<button bindtap="leftPop">隐藏left弹框</button>
+	</view>
+
+</zx-popup>
+<zx-popup popup-visible="{{ top }}" zx-position="{{'top'}}">
+	<view class="wrap top">显示top弹框文字在语言学中指书面语等人们意思表达的视觉形式，古代把独体字叫做“文”，把合体字叫做“字”，如今联合起来叫做“文字”，文字的基本个体叫做“字”。在日常生活中，“文字”还可以指书面语、语言、文章、字等。视觉符号形式，突破口语的时间和空间限制。例如汉字、拉丁字母。</view>
+</zx-popup>
+<zx-popup popup-visible="{{ bottom }}" zx-position="{{'bottom'}}">
+	<view class="wrap bottom">显示bottom弹框</view>
+</zx-popup>
+<zx-popup popup-visible="{{ middle }}" zx-position="{{'middle'}}">
+	<view class="wrap middle">显示middle弹框</view>
+</zx-popup>

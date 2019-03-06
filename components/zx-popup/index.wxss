@@ -1,0 +1,203 @@
+.width-100 {
+	width: 100%;
+}
+.popup-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.popup-content {
+	position: fixed;
+}
+.shadow {
+	background: rgba(0, 0, 0, .5);
+}
+.bg-f {
+	background: #fff;
+
+}
+.top {
+	top: 0;
+	left: 0
+}
+.middle {
+	left: 50%;
+	top: 50%;
+	transform: translate3d(-50%, -50%, 0);
+}
+.bottom {
+	bottom: 0;
+	left: 0;
+}
+.right {
+	top: 0;
+	right: 0;
+}
+
+.left-enter-animated {
+	animation: leftEenter .2s;
+}
+
+.left-leave-animated {
+	animation: leftLeave .2s;
+}
+
+.top-enter-animated {
+	animation: topEenter .2s;
+}
+
+.top-leave-animated {
+	animation: topLeave .2s;
+}
+.bottom-enter-animated {
+	animation: bottomEenter .2s;
+}
+
+.bottom-leave-animated {
+	animation: bottomLeave .2s;
+}
+
+.middle-enter-animated {
+	animation: middleEnter .2s;
+}
+.middle-leave-animated {
+	animation: middleLeave .2s;
+}
+
+.right-enter-animated {
+	animation: rightEnter .2s;
+}
+.right-leave-animated {
+	animation: rightLeave .2s;
+}
+
+
+.showdow-enter {
+	animation: shadowEeter .2s;
+}
+.showdow-leave {
+	animation: shadowLeave .2s;
+}
+
+@keyframes leftEenter
+{
+	from {
+		transform: translate3d(-100%, 0, 0);
+	}
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes leftLeave
+{
+	from {
+		transform: translate3d(0, 0, 0);
+	}
+	to {
+	   transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@keyframes topEenter
+{
+	from {
+		transform: translate3d(0, -100%, 0);
+	}
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes topLeave
+{
+	from {
+		transform: translate3d(0, 0, 0);
+	}
+	to {
+	   transform: translate3d(0, -100%, 0);
+	}
+}
+
+@keyframes bottomEenter
+{
+	from {
+		transform: translate3d(0, 100%, 0);
+	}
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes bottomLeave
+{
+	from {
+		transform: translate3d(0, 0, 0);
+	}
+	to {
+	   transform: translate3d(0, 100%, 0);
+	}
+}
+
+@keyframes middleEnter {
+	from {
+   		opacity: 0;
+	    transform: translate3d(-50%, -50%, 0) scale(0, 0);
+	}
+
+	to {
+	    opacity: 1;
+	    transform: translate3d(-50%, -50%, 0) scale(1, 1);
+	}
+}
+@keyframes middleLeave {
+	from {
+   		opacity: 1;
+	    transform: translate3d(-50%, -50%, 0) scale(1, 1);
+	}
+
+	to {
+	    opacity: 0;
+	    transform: translate3d(-50%, -50%, 0) scale(0, 0);
+	}
+}
+
+@keyframes rightEnter {
+	from {
+	    transform: translate3d(100%, 0, 0);
+	}
+
+	to {
+	    transform: translate3d(0, 0, 0);
+	}
+}
+@keyframes rightLeave {
+	from {
+	    transform: translate3d(0, 0, 0);
+	}
+
+	to {
+	    transform: translate3d(100%, 0, 0);
+	}
+}
+
+
+@keyframes shadowEeter {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes shadowLeave {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+

@@ -1,0 +1,24 @@
+.wrap {
+	background: #fff;
+}
+.left {
+	width: 400rpx;
+	height: 667px;
+
+}
+.right {
+	width: 400rpx;
+	height: 667px;
+}
+.top {
+	width: 750rpx;
+	height: 500rpx;
+}
+.bottom {
+	width: 750rpx;
+	height: 500rpx;
+}
+.middle {
+	width: 640rpx;
+	height: 500rpx;
+}
