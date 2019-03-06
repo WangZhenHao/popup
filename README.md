@@ -2,6 +2,11 @@
 
 ### 仿照mint-ui的弹框而做的小程序弹框组件
 
+![AreaInertailScroll](https://github.com/WangZhenHao/popup/blob/master/images/popup.gif)
+
+
+[代码片段: https://developers.weixin.qq.com/s/kM0vQFmP7O6D](https://developers.weixin.qq.com/s/kM0vQFmP7O6D)  
+
 ```
 	 对话框zx-popup使用方法
  <zx-popup 
@@ -33,4 +38,4 @@
          但是外面的popupVisible没有改变,就会导致数据不统一的情况
 ```
 
-![AreaInertailScroll](https://github.com/WangZhenHao/popup/blob/master/images/popup.gif)
+
